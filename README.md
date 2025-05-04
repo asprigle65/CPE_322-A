@@ -10,4 +10,4 @@ I can solve a rubix cube in 36 seconds
 I'm actually the Club Volleyball President here at Stevens  
 I am excited to learn in this class :)  
 
-![new favorite Spongebob character](pns.png)
+![new favorite Spongebob character](SourceFolder/pns.png)
