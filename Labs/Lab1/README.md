@@ -2,6 +2,6 @@
 
 Installing Notepad++
 ![Notepad++](SourceFolder/np++.png)
-
+---
 Adding Environment Variables
 ![Variables](SourceFolder/variables.png)
