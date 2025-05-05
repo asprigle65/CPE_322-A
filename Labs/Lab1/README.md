@@ -1,7 +1,7 @@
 # Lab 1 - GHDL and GTKWave
 
-Installing Notepad++
-![Notepad++](SourceFolder/np++.png)
+Running vhdl command in Git Bash
+![Command](SourceFolder/cmd1.png)
 
-Adding Environment Variables\
-![Variables](SourceFolder/variables.png)
+Half Adder Examples\
+![Example](SourceFolder/wavetest.png)
