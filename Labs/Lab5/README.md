@@ -1,4 +1,4 @@
-## Lab 5 - Paho-MQTT
+# Lab 5 - Paho-MQTT
 ---
 
 -Continued to use Git Bash
