@@ -1,4 +1,7 @@
 **Readme file for Aaron Sprigle**\
+_Disclaimer_\
+All labs for this repository are based on the various lessons given by Dr. Kevin Lu from his repository. Supplementary files were also given there. \
+see [here](https://github.com/kevinwlu/iot/tree/master) \
 _Major_\
 Computer Engineering  
 
