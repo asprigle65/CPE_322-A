@@ -2,6 +2,7 @@
 ---
 
 -Continued to use Git Bash
+-I had to work around certain steps for this lab. Please especially refer to the original instructions and supplementary files from lesson7 for more on this.
 
 ## ThingSpeak
 
@@ -43,7 +44,7 @@ Creating credentials (service account)\
 -A slightly different and updated method than the one listed on the lesson7 page was needed\
 ![sacc](SourceFolder/saccount.png)
 
-Installing gspread and oauth2client\
+Installing gspread and oauth2client
 ```
 $ pip install -U gspread oauth2client
 ```
@@ -67,6 +68,14 @@ Editing rpi_spreadsheet.py\
 ![edit](SourceFolder/edit.png)
 
 Running rpi_spreadsheet.py (attempt 1 - error)\
--Once again, not having the proper Pi hardware caused some roadblocks. I ended up having to edit the code in system_info.py
+-Once again, not having the proper Pi hardware caused some roadblocks. I ended up having to edit the code in system_info.py originally from lesson7 to account for this.\
+see new code [here](SourceFolder/system_info.py) \
 ![error](SourceFolder/error.png)
+
+Running rpi_spreadsheet.py (attempt 2 - success)\
+Running python file\
+![rpspy](SourceFolder/rpspy.png)\
+Live update to Google sheets\
+![ss](SourceFolder/sheetshow.png)
+
 
