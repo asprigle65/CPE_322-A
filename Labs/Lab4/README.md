@@ -60,8 +60,8 @@ $ cd myapp
 $ cp ~/iot/lesson4/stevens/index.html .
 ```
 
-Inserting API key from google maps
--I had some trouble getting this to work at first. I had ended up needing to copy and paste the key verbatim into Git Bash which was slightly difficult due to the UI.
+Inserting API key from google maps\
+-I had some trouble getting this to work at first. I had ended up needing to copy and paste the key verbatim into Git Bash which was slightly difficult due to the UI.\
 INSERT PICTURE
 
 Copying static files
@@ -90,14 +90,15 @@ Superuser created successfully.
 
 Run Django server
 ```
-$ python3 manage.py runserver
+$ python manage.py runserver
 ```
 Opened at http://127.0.0.1:8000/admin
 Django home screen
 INSERT PICTURE
 Inserting data
 INSERT PICTURE
-Weather station
+Opened at http://127.0.0.1:8000
+Weather station\
 INSERT PICTURE
 
 ## Django Project "MyCPU"
@@ -141,9 +142,97 @@ $ cp ~/iot/lesson4/mycpu/views.py .
 $ cp ~/iot/lesson4/mycpu/serializers.py .
 ```
 
-Changing default password
--This step gave me a lot of trouble at first. I did not know what
+Changing default password\
+-This step gave me a lot of trouble at first. I did not know what to change the fields to at first. I did some troubleshooting and found that they needed to be the username and password you had chosen for the user.
 ```
 $ nano views.py
 ```
 
+Copy index.html
+```
+$ mkdir static templates
+$ cd templates
+$ mkdir myapp
+$ cd myapp
+$ cp ~/iot/lesson4/mycpu/index.html .
+```
+Inserting API key from google maps
+-This step was identical to the stevens project
+```
+$ nano index.html
+```
+
+Copy static files
+```
+$ cd ~/mycpu/myapp/static
+$ cp ~/iot/lesson4/static/favicon.ico .
+$ mkdir myapp
+$ cd myapp
+$ cp ~/iot/lesson4/static/*css .
+$ cp ~/iot/lesson4/static/*js .
+$ cd ~/mycpu
+```
+
+Copy controller.py to ~/mycpu
+```
+$ ls
+manage.py  myapp/  mycpu/
+$ cp ~/iot/lesson4/mycpu/controller.py .
+```
+
+Change password in controller.py
+```
+$ nano controller.py
+```
+INSERT PICTURE
+
+Install psutil\
+-This was already installed for me, so the command was unnecessary for me
+```
+$ pip install -U psutil
+```
+
+Create a user
+```
+$ python manage.py makemigrations myapp
+$ python manage.py migrate
+$ python manage.py createsuperuser
+Username (leave blank to use '_'): admin
+Email address: MY_EMAIL
+Password: MY_PASSWORD
+Password (again): MY_PASSWORD
+Bypass password validation and create user anyway? [y/N]: y
+Superuser created successfully.
+```
+
+Run Django server
+```
+$ python manage.py runserver
+```
+INSERT PICTURE
+
+Opened at http://127.0.0.1:8000/admin
+INSERT PICTURE
+Inserting Data
+INSERT PICTURE
+
+Posted data at the following links:
+-2024 to the Dt List at http://127.0.0.1:8000/dt
+-20 to the Cpu List at http://127.0.0.1:8000/cpu
+-20 to the Mem List at http://127.0.0.1:8000/mem
+INSERT PICTURES
+
+Running native controller on another terminal
+INSERT PICTURE
+
+Opened at http://127.0.0.1:8000/home
+INSERT PICTURE
+
+## Flask
+Installing Flask
+INSERT PICTURE
+
+Running hello_world.py in Python
+INSERT PICTURE
+Running hello_world.py using Flask
+INSERT PICTURE
