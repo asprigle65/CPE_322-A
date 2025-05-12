@@ -39,4 +39,8 @@ Google charts\
 ![c6](SourceFolder/c1-6.png)
 
 ### plt_cv2.py
+-This first chart is the predicted temperature in C from the data given. Since it stayed consistent, it makes sense that there is only 1 possibility.\
+![c8](SourceFolder/c1-8.png)
+
+-This second chart, although not necessary for the lab, is the predicted CPU usage. I included it since it was more interesting and better showed the program's capabilities.\
 ![c7](SourceFolder/c1-7.png)
