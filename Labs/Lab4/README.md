@@ -2,9 +2,9 @@
 ---
 
 _Disclaimers_\
--This lab took a lot of effort. There were many problems I encountered along the way that I had to think through and solve.\
+-This lab took a lot of effort. There were many problems I encountered along the way that I had to thoroughly think through and solve.\
 -Once everything worked properly, it was very satisfying considering the work put in\
--Lost many screenshots due to a computer error so I am replacing many of them with text\
+-I lost many screenshots due to a computer error so I am replacing many of them with text\
 \
 -Continued to use Git Bash\
 -Started off by installing Django and Django REST framework using these commands
@@ -37,7 +37,7 @@ $ ls
 asgi.py  __init__.py  __pycache__  settings.py  urls.py  wsgi.py
 $ nano settings.py
 ```
-INSERT PICTURE
+![sset](SourceFolder/ssettings.png)
 
 Copying .py files and .html
 ```
@@ -62,7 +62,7 @@ $ cp ~/iot/lesson4/stevens/index.html .
 
 Inserting API key from google maps\
 -I had some trouble getting this to work at first. I had ended up needing to copy and paste the key verbatim into Git Bash which was slightly difficult due to the UI.\
-INSERT PICTURE
+![key](SourceFolder/apikey.png)
 
 Copying static files
 ```
@@ -92,14 +92,16 @@ Run Django server
 ```
 $ python manage.py runserver
 ```
-Opened at http://127.0.0.1:8000/admin
-Django home screen
-INSERT PICTURE
-Inserting data
-INSERT PICTURE
-Opened at http://127.0.0.1:8000
+![scon](SourceFolder/sconsole.png)\
+
+Opened at http://127.0.0.1:8000/admin \
+Django home screen\
+![sdh](SourceFolder/sdjangohome.png)
+Inserting data\
+![stemp](SourceFolder/stemp.png)\
+Opened at http://127.0.0.1:8000 \
 Weather station\
-INSERT PICTURE
+![weather](SourceFolder/weatherstation.png)
 
 ## Django Project "MyCPU"
 -Many of the steps were similar from the last project
@@ -125,7 +127,7 @@ $ ls
 asgi.py  __init__.py  __pycache__  settings.py  urls.py  wsgi.py
 $ nano settings.py
 ```
-INSERT PICTURE
+![cset](SourceFolder/csettings.png)
 
 Copying .py files
 ```
@@ -156,11 +158,12 @@ $ mkdir myapp
 $ cd myapp
 $ cp ~/iot/lesson4/mycpu/index.html .
 ```
-Inserting API key from google maps
+Inserting API key from google maps\
 -This step was identical to the stevens project
 ```
 $ nano index.html
 ```
+![key](SourceFolder/apikey.png)
 
 Copy static files
 ```
@@ -184,7 +187,7 @@ Change password in controller.py
 ```
 $ nano controller.py
 ```
-INSERT PICTURE
+![cpass](SourceFolder/cpassword.png)
 
 Install psutil\
 -This was already installed for me, so the command was unnecessary for me
@@ -209,30 +212,32 @@ Run Django server
 ```
 $ python manage.py runserver
 ```
-INSERT PICTURE
+![ccon](SourceFolder/cconsole.png)
 
-Opened at http://127.0.0.1:8000/admin
-INSERT PICTURE
-Inserting Data
-INSERT PICTURE
+Opened at http://127.0.0.1:8000/admin \
+![chome](SourceFolder/cdjangohome.png)\
+Inserting Data\
+![cdata](SourceFolder/cdata.png)\
 
-Posted data at the following links:
--2024 to the Dt List at http://127.0.0.1:8000/dt
--20 to the Cpu List at http://127.0.0.1:8000/cpu
--20 to the Mem List at http://127.0.0.1:8000/mem
-INSERT PICTURES
+Posted data at the following links:\
+-2024 to the Dt List at http://127.0.0.1:8000/dt \
+-20 to the Cpu List at http://127.0.0.1:8000/cpu \
+-20 to the Mem List at http://127.0.0.1:8000/mem \
+![dt](SourceFolder/dt.png)\
+![cpu](SourceFolder/cpu.png)\
+![mem](SourceFolder/mem.png)
 
-Running native controller on another terminal
-INSERT PICTURE
+Running native controller on another terminal\
+![t2](SourceFolder/t2.png)
 
-Opened at http://127.0.0.1:8000/home
-INSERT PICTURE
+Opened at http://127.0.0.1:8000/home \
+![mycpu](SourceFolder/mycpu.png)
 
 ## Flask
 Installing Flask
-INSERT PICTURE
+![fin](SourceFolder/flaskin.png)
 
-Running hello_world.py in Python
-INSERT PICTURE
-Running hello_world.py using Flask
-INSERT PICTURE
+Running hello_world.py in Python\
+![hwpy](SourceFolder/hwpy.png)\
+Running hello_world.py using Flask\
+![hww](SourceFolder/hww.png)
