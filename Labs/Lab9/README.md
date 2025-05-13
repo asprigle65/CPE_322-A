@@ -333,6 +333,7 @@ center footer
 Ending off the lab
 ```
 $ python -m plantuml intrusiondetection.uml
+[{'filename': 'intrusiondetection.uml', 'gen_success': True}]
 ```
 ## Generated image
 ![id](SourceFolder/intrusiondetection.png)
