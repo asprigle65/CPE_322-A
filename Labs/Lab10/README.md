@@ -1,7 +1,8 @@
 # Lab 10 - Blockchain
 ---
 
--Continued using Git Bash
+-Continued using Git Bash \
+-General note: After completing all of these labs, I can say I feel much more proficient in using GitHub and I can more fully appreciate what it offers. 
 
 Directing to lesson 10
 ```
@@ -78,7 +79,7 @@ Comparison:\
 -The last 3 hashes (pytthon, tuple of vowels, object of person) were different
 
 ## Securing hash algorithm
-INSERT PICTURE
+![halg](SourceFolder/halg.png)
 
 ## cat snakecoin.py
 ```
@@ -394,43 +395,45 @@ node.run()
 $ python snakecoin-server-full-code.py
 ```
 -Opened at http://127.0.0.1:5000/ \
-INSERT PICTURES
+![scoin](SourceFolder/scoinserv.png)
 
 ## Terminal 2: Creating transaction and mining block
-INSERT PICTURE
--Opened at http://127.0.0.1:5000/mine
-INSERT PICTURE
+![ssfcpy](SourceFolder/ssfcpy.png) \
+-Opened at http://127.0.0.1:5000/mine \
+![mine1](SourceFolder/mine1.png)
 
 Terminal 1 updated
-INSERT PICTURE
+![su](SourceFolder/ssfcpyu.png)
 
 ## Terminal 1: node_server.py
 Cloning blockchain_app
-INSERT PICTURE
+![clone](SourceFolder/clone.png)
 
 Uncommenting in node_server.py
 ```
 $ cd ~/python_blockchain_app
 $ nano node_server.py
 ```
-INSERT PICTURE
+![uc](SourceFolder/uncomment.png)
 
 Running node_server.py
 ```
 python node_server.py
 ```
+![nspy](SourceFolder/nspy.png)
 
 ## Terminal 2: Running run_app.py
 ```
 $ cd ~/python_blockchain_app
 $ python run_app.py
 ```
+![rapy](SourceFolder/rapy.png)
 
 -Opened at http://127.0.0.1:5000/ \
-INSERT PICTURE
-Posting
-INSERT PICTURE
+![yn](SourceFolder/yournet.png) \
+Posting \
+![b1](SourceFolder/block1.png) \
 -Request to Mine and opened at http://127.0.0.1:8000/mine \
-INSERT PICTURE
-Resync
-INSERT PICTURE
+![b1m](SourceFolder/block1mine.png) \
+Recycle \
+![rec](SourceFolder/recycle.png)
