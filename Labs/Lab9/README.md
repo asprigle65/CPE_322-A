@@ -335,4 +335,4 @@ Ending off the lab
 $ python -m plantuml intrusiondetection.uml
 ```
 ## Generated image
-INSERT PICTURE
+![id](SourceFolder/intrusiondetection.png)
